@@ -1,10 +1,10 @@
 const { Telegraf, Markup } = require("telegraf");
-const TOKEN = "7797629643:AAEWHOonlUro9gfOHAM2F_TODPJQCWonzSw";
+const TOKEN = "7769851057:AAGHqMXhWX5Z7Hcz8yPZ7GnNTqvp7xFmEhI";
 const bot = new Telegraf(TOKEN);
 const express = require("express");
 const app = express()
 app.use(express.json())
-const web_link = "https://monkeycity.netlify.app";
+const web_link = "https://notstars.netlify.app";
 const community_link = "https://t.me/monkeycity_community";
 
 
